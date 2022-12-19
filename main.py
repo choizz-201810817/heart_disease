@@ -27,8 +27,8 @@ warnings.filterwarnings('ignore')
 # %%
 # df = pd.read_csv(r'data\heart_disease.csv')
 
-# df2tbl(df, 'root', '949700', 'heartdiseasedb', 'heartdiseaseTBL', 'replace')
-df = tbl2df('root', '949700', 'heartdiseasedb', 'heartdiseaseTBL')
+# df2tbl(df, 'root', '******', 'heartdiseasedb', 'heartdiseaseTBL', 'replace')
+df = tbl2df('root', '******', 'heartdiseasedb', 'heartdiseaseTBL')
 
 # %%
 # report = create_report(df)
