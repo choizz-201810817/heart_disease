@@ -1,5 +1,7 @@
+#%%
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 from sklearn.model_selection import learning_curve
 from sklearn.metrics import classification_report, roc_curve, auc
@@ -45,3 +47,4 @@ def drawLearningCurve(algo, X, y, cv, epochs, i):
     plt.plot(trainSize, trainScoreMean, '-o', color='blue', label='Train Score')
     plt.plot(trainSize, testScoreMean, '-o', color='red', label='Test Score')
     plt.legend(loc = 'best')
+# %%
